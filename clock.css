@@ -1,0 +1,368 @@
+body {
+    background-color: #3D087B;
+   width: 100%;
+
+}
+
+.clock {
+    position: relative;
+    top: 34px;
+    left: 124px;
+    width: 204px;
+    height: 77px;
+    background: url('clock_logo.png');
+}
+.container {
+    position:absolute;
+    top: 149px;
+    left: 124px;
+    width: 566px;
+    height: 363px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box; 
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+     
+}
+.sun {   
+    position: relative;
+    top: 30px;
+left: 40px;
+width: 34px;
+height: 34px;
+background: transparent url('wake_up.png') 0% 0% no-repeat padding-box;
+
+}
+.timings {
+    position:relative ;
+   bottom: 30px;
+    left: 260px;
+    width: 281px;
+    height: 45px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    
+}
+.one {
+    position: relative;
+    left: 100px;
+width: 141px;
+height: 23px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal normal 18px/28px Manrope;
+letter-spacing: 0px;
+color: #3D087B;
+
+}
+.line {
+    position: relative;
+left: 56px;
+bottom: 30px;
+width: 0px;
+height: 40px;
+border: 1px solid #C2C2C2;
+
+}
+.lunch {
+    position: relative;
+    top: 25px;
+    left: 40px;
+width: 34px;
+height: 34px;
+background: transparent url('lunch_time.png') 0% 0% no-repeat padding-box;
+
+}
+.gap {
+    position: relative;
+    bottom: 40px;
+    width: 517px;
+height: 45px;
+
+}
+.nap {
+    position: relative;
+    top: 25px;
+left: 40px;
+width: 34px;
+height: 34px;
+background: transparent url('nap_time.png') 0% 0% no-repeat padding-box;
+
+}
+.good {
+    position: relative;
+    top: 450px;
+left: 115px;
+width: 566px;
+height: 77px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #8A11BF 0% 0% no-repeat padding-box;
+border: 1px solid #5F0089;
+border-radius: 10px;
+
+}
+.mrng {
+    position:relative;
+    left: 50px;
+    top: 20px;
+width: 400px;
+height: 34px;
+text-align: center;
+ font-size: 23px;
+   
+font: normal normal 900 27px/34px Bauhaus Hv BT;
+color:white;
+}
+.alarm {
+    position: relative;
+    top: 460px;
+    left: -190px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%);
+    color: white;
+    border: solid 1px #3D087B;
+    border-radius: 8px;
+}
+.party {
+    position: relative;
+    top: 460px;
+    left: 113px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    background-image: linear-gradient(113deg, #F1A7C5 0%,#FC5EFF  60%, #6E54EC 100%);
+    color: white;
+    border: solid 1px #3D087B;
+    border-radius: 8px;
+}
+.alarm {
+    transition: all 1s ;
+}
+
+.alarm:hover {
+    visibility: hidden;
+    
+
+}
+.review {
+    position:relative;
+    top: 410px;
+left: 437px;
+width: 253px;
+height: 117px;
+
+border: 1px solid var(--unnamed-color-ededed);
+background-color: #8A11BF;
+border: 1px solid ;
+border-radius: 10px;
+
+}
+.review_timings {
+    width: 200px;
+    position: relative;
+    top: 18px;
+    left: 0px;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#CB52F8;
+}
+.container1 {
+    position:relative;
+    bottom: 300px;
+left: 706px;
+width: 600px;
+height: 130px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+z-index: 4;
+
+
+}
+.time {
+   position: relative;
+    top: 46px;
+left: 20px;
+width: 46px;
+height: 26px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) 20px/32px var(--unnamed-font-family-manrope);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-3d087b);
+text-align: left;
+font: normal normal 600 20px/32px Manrope;
+letter-spacing: 0px;
+color: #3D087B;;
+text-transform: uppercase;
+
+}
+.box {
+    position:absolute;
+    top: 20px;
+left: 100px;
+width: 80px;
+height: 90px;
+background: transparent url('timeline.png') 0% 0% no-repeat padding-box;
+
+}
+.ten {
+    position: relative;
+    top: 6px;
+left: 20px;
+width: 33px;
+height: 43px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-8a11bf);
+text-align: left;
+font: normal normal normal 36px/43px Barlow;
+letter-spacing: 0px;
+color: #8A11BF;
+
+}
+.hour {
+  position: relative;
+    top: 6px;
+left: 20px;
+width: 56px;
+height: 28px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-23)/var(--unnamed-line-spacing-28) var(--unnamed-font-family-barlow);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-5f0089);
+text-align: left;
+font: normal normal normal 23px/28px Barlow;
+letter-spacing: 0px;
+color: #5F0089;
+
+}
+.dot {
+    position: relative;
+    top:20px;
+    left: 200px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3D087B;
+}
+.box1 { 
+    position:absolute;
+    top: 20px;
+left: 230px;
+width: 80px;
+height: 90px;
+background: transparent url('timeline.png') 0% 0% no-repeat padding-box;
+
+
+}
+.dot1 {
+    position: relative;
+    top:-14px;
+    left: 340px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3D087B;
+}
+.box2 {
+    position:absolute;
+    top: 20px;
+left: 370px;
+width: 80px;
+height: 90px;
+background: transparent url('timeline.png') 0% 0% no-repeat padding-box;
+
+
+}
+.box3 {
+    position: relative;
+    top: -76px;
+left: 500px;
+width: 82px;
+height: 90px;
+background: transparent url('AM_svg.png') 0% 0% no-repeat padding-box;
+
+}
+.am {
+    position: relative;
+    top: 20px;
+left: 10px;
+width: 48px;
+height: 43px;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal normal 36px/43px Barlow;
+letter-spacing: 0px;
+color: #FFFFFF;
+
+}
+ .shadow1 {
+    position: relative;
+    width: 450px;
+    height: 100px;
+    background-color:#FFFFFF;
+    /* opacity: 0.6;  */
+    left: 60px;
+    bottom: 130px;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+
+
+
+.shadow2 {
+    position: relative;
+    width: 350px;
+    height: 100px;
+    background-color:#8E53F0;
+    left: 110px;
+    bottom: 210px;
+    border-radius: 10px;
+    z-index: 0;
+   
+} 
+
+
+.box4 {
+    position: relative;
+    top: -230px;
+left: 700px;
+width: 600px;
+height: 118px;
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+border: 1px solid var(--unnamed-color-ededed);
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #EDEDED;
+border-radius: 10px;
+
+}
+.grab {
+    position: relative;
+    top: 30px;
+    left: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: #8e53f0;
+    font-weight: 800;
+    font: normal normal 900 30px/40px Bauhaus Hv BT; 
+    font-size: 27px;
+}
+
+.pic-box {
+    position: relative;
+    top: -200px;
+    left: 700px;
+}
+
+
+
